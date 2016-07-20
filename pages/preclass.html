@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>课前预习第一章</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<style type="text/css">
+		#pre_learning{ min-height: 100px; margin-left: 40px;}
+		.difficulty , .submit{ margin-left: 40px; margin-top: 10px;}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<nav class="navbar navbar-default" role="navigation">
+		   <div class="navbar-header">
+		      <a class="navbar-brand active" href="#">课前预习</a>
+		   </div>
+		   <div>
+		      <ul class="nav navbar-nav">
+		         <li><a href="./class_discuss.html">课堂讨论</a></li>
+		         <li><a href="./unit_test.html">单元测试</a></li>
+		         <li><a href="./exp_test.html">实验测试</a></li>
+		         <li><a href="./learning_style.html">学习风格</a></li>
+		      </ul>
+		   </div>
+		</nav>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-5"><h3>预习心得：</h3></div>
+				<textarea id="pre_learning" class="col-md-8"></textarea>
+			</div>
+			<div class="difficulty col-md-3">
+				<div style="font-size:24px; padding-top:10px;">难度</div>
+				<select id="difficulty" class="form-control">
+				  <option value ="1">1</option>
+				  <option value ="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<div class=" submit col-md-10">
+				<button type="button" class="btn btn-primary" id="submit">提交</button>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
